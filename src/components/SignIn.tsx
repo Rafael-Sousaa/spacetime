@@ -4,7 +4,7 @@ const SignIn = () => {
   return (
     <a
       href={`https://github.com/login/oauth/authorize?client_id=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID}`}
-      className="flex items-center gap-3 text-left transition-colors hover:text-gray-50"
+      className=" mt-3 flex w-[400px] items-center justify-center gap-3  text-left transition-colors hover:text-gray-50 md:flex md:items-center md:justify-start md:gap-3 md:text-left"
     >
       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400">
         <User className="h-5 w-5 text-gray-500" />
